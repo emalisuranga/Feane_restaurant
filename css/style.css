@@ -1004,4 +1004,20 @@ a:focus {
 .footer_section .footer-info p a {
   color: inherit;
 }
+
+.map-responsive {
+
+  overflow:hidden;
+  padding-bottom: 67.25%;
+  position:relative;
+  height:0;
+}
+
+.map-responsive iframe {
+  left:0;
+  top:0;
+  height:100%;
+  width:100%;
+  position:absolute;
+}
 /*# sourceMappingURL=style.css.map */
